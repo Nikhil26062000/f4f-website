@@ -37,7 +37,7 @@
 .footer > .f4f_logo > img{
     width: 100%;
     position: absolute !important;
-
+    height: 100vh;
     opacity: .4;
 }
 
