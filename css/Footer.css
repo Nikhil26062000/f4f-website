@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footer{
+    background-color: #09383A;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display:flex;
+    justify-content:end;
+    align-items:center;
+}
+
+.footer_container2{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    /* background-color:red */
+    z-index: 1000
+    
+}
+.footer > .f4f_logo{
+
+    /* z-index: 10000; */
+    width: 40%;
+    height: 100vh;
+    position: absolute;
+    
+    display: flex;
+    justify-content: end;
+    
+}
+
+.footer > .f4f_logo > img{
+    width: 100%;
+    position: absolute !important;
+
+    opacity: .4;
+}
+
+
+
+.footer_body{
+    width: 80%;
+    color: white;
+   
+ 
+}
+
+.footer_body > .footer_top{
+    display: flex;
+    justify-content:space-between;
+    /* background-color: yellow; */
+   
+}
+
+.footer_body > .footer_top > .left{
+    /* background-color: green; */
+    width: 60%;
+}
+
+.footer_body > .footer_top > .right{
+    /* background-color: pink; */
+    width: 35%;
+}
+
+.btns_section{
+    display: flex;
+    justify-content:start;
+    gap: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.btn-1, .btn-2 {
+    color: #F4910F;
+    border-radius: 100px;
+    padding: 14.5px 24px; /* or 8px 16px for .btn-2 */
+    background-color: transparent;
+    border: 3px solid #125B57; /* Here's your stylish border */
+    display: flex; /* Flexbox to center the inner stuff */
+    justify-content: center; /* Horizontally centered */
+    align-items: center; /* Vertically centered */
+}
+
+
+.left > h2{
+    font-size: 40px;
+    color: #F4910F;
+    line-height: 48.41px;
+    
+}
+
+.left > p {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.footer_links{
+    display: flex;
+    justify-content: space-between;
+    /* gap: 40px; */
+}
+
+.footer_links >div > li {
+    
+    list-style: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.icons{
+    display: flex;
+    justify-content: flex-start;
+    gap: 18px;
+    padding-top: 20px;
+    color: #F4910F;
+
+}
+
+.footer_img{
+    width: 100%;
+    background: #86a34d;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius:8px;
+    position:relative;
+
+
+
+}
+
+.subscribe_news > p {
+    font-weight: 900;
+    font-size: 20px;
+    line-height:24.23px;
+    letter-spacing: -4%;
+    color: white;
+    text-transform: uppercase;
+}
+
+.footer_img > img{
+    
+    width: 50%;
+    position: absolute;
+    right: 10px;
+    /* z-index: 10!important; */
+    bottom: 0px;
+}
+
+.footer_img_input{
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+    /* z-index: 90!important; */
+
+}
+.footer_img_input > input{
+    height: 40px;
+    width: 85%;
+    background-color:#e05555;
+    color: white;
+    
+    padding-left: 10px;
+}
+
+.footer_img_input > input::placeholder {
+    color: white; /* Change placeholder color to white */
+}
+
+.footer_img_input > div {
+    background-color: #09383a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+}
+
+.subscribe_news{
+    position: relative;
+}
+
+
+
+/* Styling for Footer bottom  */
+
+.footer_bottom{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid #125B57;
+    
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.footer_bottom_box{
+    width: 20%;
+    /* background-color:yellow */
+    
+}
+.footer_bottom_box > .title{
+    padding-bottom: 10px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height:20px;
+    
+}
+
+.footer_bottom_box > .description{
+   
+    font-weight: 400;
+    font-size: 14px;
+    line-height:22px
+}
+
+.footer_copywrite{
+    padding-top:80px;
+    padding-bottom: 20px;
+}
