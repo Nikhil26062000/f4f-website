@@ -84,6 +84,10 @@
     display: flex; /* Flexbox to center the inner stuff */
     justify-content: center; /* Horizontally centered */
     align-items: center; /* Vertically centered */
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18.75px;
+
 }
 
 
@@ -91,6 +95,7 @@
     font-size: 40px;
     color: #F4910F;
     line-height: 48.41px;
+    font-weight: 700;
     
 }
 
@@ -99,6 +104,7 @@
     padding-bottom: 8px;
     font-size: 16px;
     line-height: 20px;
+    font-weight: 400;
 }
 
 .footer_links{
@@ -158,6 +164,7 @@
     width: 100%;
     display: flex;
     margin-top: 10px;
+
     /* z-index: 90!important; */
 
 }
@@ -166,7 +173,7 @@
     width: 85%;
     background-color:#e05555;
     color: white;
-    
+    border : 2px solid #09383A;
     padding-left: 10px;
 }
 
@@ -180,6 +187,8 @@
     justify-content: center;
     align-items: center;
     width: 15%;
+    border : 2px solid #09383A;
+
 }
 
 .subscribe_news{
@@ -223,4 +232,19 @@
 .footer_copywrite{
     padding-top:80px;
     padding-bottom: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height:22px
+}
+
+
+.footer_bottom_box > .description_link{
+    font-weight: 400;
+    font-size: 14px;
+    line-height:22px;
+    text-decoration: underline;
+}
+
+.icon_code{
+    padding-left: 5px;
 }
