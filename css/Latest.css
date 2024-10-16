@@ -1,0 +1,82 @@
+.title {
+  font-family: Inter;
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 54.51px;
+  letter-spacing: -0.04em;
+  text-align: center;
+  color: #F4910F;
+}
+
+.desc {
+  font-family: Inter;
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 54.51px;
+  letter-spacing: -0.04em;
+  text-align: center;
+  color: #09383A;
+}
+
+.section_box {
+  width: 537px;
+  height: 386px;
+  border-radius: 8px;
+  opacity: 0px;
+  background: #D9D9D9;
+}
+
+.small_title {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.07px;
+  text-align: left;
+  color: #E05555;
+}
+
+.nws_letter {
+  padding: 6px 10px 6px 10px;
+  border-radius: 100px;
+  border: 3px solid white;
+  color: #E05555;
+  width: 107px;
+  height: 33px;
+  background-color: white;
+}
+
+.sub_heading {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: -0.04em;
+  text-align: left;
+  color: #09383A;
+}
+
+.long_desc {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.77px;
+  text-align: left;
+  color: #09383A;
+}
+
+button {
+  padding: 14.5px 24px 14.5px 24px;
+  border-radius: 10px;
+  opacity: 0px;
+  background: #F4910F;
+  color: white;
+  text-transform: uppercase;
+  outline: none;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23.44px;
+  border: none;
+}
+
+/*# sourceMappingURL=Latest.css.map */
