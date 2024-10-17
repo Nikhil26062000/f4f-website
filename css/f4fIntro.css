@@ -56,8 +56,12 @@
   margin-right: 40px;
 }
 .our_work .work-section .work-content h1 {
-  font-size: 48px;
-  font-weight: bold;
+  font-family: Inter;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 72.68px;
+  letter-spacing: -0.04em;
+  text-align: left;
 }
 .our_work .work-section .work-content .dropdowns {
   margin: 20px 0;
@@ -74,7 +78,7 @@
   font-weight: 700;
   line-height: 21.11px;
   border: 2px solid #86a34d;
-  border-radius: 20px;
+  border-radius: 10px;
   background: transparent;
   color: #f4910f;
 }
@@ -86,20 +90,26 @@
   font-weight: 700;
   line-height: 21.11px;
   text-align: left;
+  padding: 10px 20px;
+  border: 2px solid #86a34d;
+  border-radius: 10px;
 }
 .our_work .work-section .work-content .dropdowns .dropdown span {
   margin-left: 10px;
 }
 .our_work .work-section .work-content .description {
   font-size: 16px;
-  line-height: 1.6;
+  line-height: 18.77px;
   margin: 20px 0;
   color: #86a34d;
 }
 .our_work .work-section .work-content .description .learn-more {
-  font-weight: bold;
   color: #f4910f;
   cursor: pointer;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18.77px;
 }
 .our_work .work-section .technology_button {
   padding: 10px 20px;

@@ -61,8 +61,13 @@ $bg-color: #89ac45;
       margin-right: 40px;
 
       h1 {
-        font-size: 48px;
-        font-weight: bold;
+        font-family: Inter;
+        font-size: 60px;
+        font-weight: 700;
+        line-height: 72.68px;
+        letter-spacing: -0.04em;
+        text-align: left;
+
       }
 
       .dropdowns {
@@ -82,7 +87,7 @@ $bg-color: #89ac45;
           line-height: 21.11px;
 
           border: 2px solid #86a34d;
-          border-radius: 20px;
+          border-radius: 10px;
           background: transparent;
           color: #f4910f;
 
@@ -94,6 +99,9 @@ $bg-color: #89ac45;
             font-weight: 700;
             line-height: 21.11px;
             text-align: left;
+            padding: 10px 20px;
+            border: 2px solid #86a34d;
+            border-radius: 10px;
           }
 
           span {
@@ -104,14 +112,20 @@ $bg-color: #89ac45;
 
       .description {
         font-size: 16px;
-        line-height: 1.6;
+        line-height: 18.77px;
         margin: 20px 0;
         color: #86a34d;
 
         .learn-more {
-          font-weight: bold;
+       
           color: #f4910f;
           cursor: pointer;
+          font-family: Roboto;
+          font-size: 16px;
+          font-weight: 700;
+          line-height: 18.77px;
+
+
         }
       }
     }
