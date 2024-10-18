@@ -1,0 +1,81 @@
+
+// ------------Job description scss code
+
+.job_description {
+    width: 278px;
+    height: 53px;
+    padding: 14.5px 24px 14.5px 24px;
+    border-radius: 100px;
+    color: #603a26;
+    background-color: transparent !important;
+    border: 2px solid #f4910f;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.44px;
+    text-transform: uppercase;
+  }
+  
+  .advertise {
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 46.91px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    color: #603a26;
+  }
+  
+  .department {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.07px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    color: #603a26;
+  }
+  
+  .designation {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.07px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    color: #603a26;
+  }
+  
+  .place_icon {
+    color: #603a26;
+    padding-right: 5px;
+  }
+  
+  .place {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 18.77px;
+    text-align: left;
+    color: #603a26;
+  }
+  
+  .job_type {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 18.77px;
+    text-align: left;
+    color: #603a26;
+  }
+  
+  .job_type_icon {
+    color: #603a26;
+    padding-right: 5px;
+  }
+  
+  .btn_box {
+    display: flex;
+    justify-content: end;
+  }
+  
