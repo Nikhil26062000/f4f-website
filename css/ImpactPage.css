@@ -71,7 +71,7 @@
   padding: 100px 80px 100px 80px;
   background: #89AC45;
 }
-.protect_forest .title {
+.protect_forest .protect_forest_title {
   font-size: 66px;
   font-weight: 300;
   line-height: 79.88px;
@@ -106,7 +106,7 @@
   width: 50%;
   padding: 20px;
   gap: 8px;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid #86A34D;
   opacity: 0px;
   list-style: none;
   font-size: 16px;
@@ -200,6 +200,7 @@
   line-height: 15.73px;
   text-align: left;
   padding-bottom: 10px;
+  color: #09383A !important;
 }
 .protect_forest .inner_box_parent .inner_box .carbon_quant .para2 {
   font-size: 13px;
@@ -210,9 +211,7 @@
 .protect_forest .inner_box_parent .inner_box .carbon_quant .submit_btn {
   width: 100%;
   padding: 20px 40px 20px 40px;
-  gap: 8px;
   margin-top: 20px;
-  opacity: 0px;
   border: none;
   background-color: transparent;
   border-top: 2px solid rgb(134, 163, 77);
@@ -221,6 +220,27 @@
   line-height: 28px;
   text-align: center;
   color: rgb(9, 56, 58);
+}
+
+.grow_forests {
+  width: 50%;
+  padding: 100px 80px 100px 80px;
+  background: #BA744A;
+}
+.grow_forests .grow_forests_title {
+  font-size: 66px;
+  font-weight: 300;
+  line-height: 79.88px;
+  letter-spacing: -0.04em;
+  text-align: left;
+  color: #FFEFCC;
+}
+.grow_forests .grow_forests_text {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  color: #FFEFCC;
 }
 
 /*# sourceMappingURL=ImpactPage.css.map */
