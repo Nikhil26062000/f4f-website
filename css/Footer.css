@@ -301,10 +301,11 @@
         /* background:red; */
         margin-top: 20px;
         margin-bottom: 50px;
+        position: relative;
     }
 
     .footer_img_input > input{
-        width: 90%;
+        width: 100%;
         background-color: transparent;
         border: 3px solid #F4910F;
 
@@ -313,8 +314,11 @@
     .footer_img_input > div{
         width: 10%;
         background: #F4910F;
-        /* padding-top: 20px; */
-        /* padding-bottom: 20px; */
+        position: absolute;
+        right:0;
+        height: 100%;
+        border: none;
+        
 
         
     }
@@ -336,12 +340,12 @@
 
     .heading{
         font-family: Inter;
-font-size: 25px;
-font-weight: 700;
-line-height: 30.28px;
-letter-spacing: -0.04em;
-text-align: center;
-color: white;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 30.28px;
+        letter-spacing: -0.04em;
+        text-align: center;
+        color: white;
 
 
     }
