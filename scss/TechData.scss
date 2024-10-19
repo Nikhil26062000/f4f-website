@@ -1,0 +1,169 @@
+
+// ------------------Tech and Data page scss
+.tech_data {
+    .image_row {
+      position: relative;
+
+      img{
+        width: 100%;
+      }
+      .image_details {
+        position: absolute;
+        bottom: 15%;
+        left: 12.5%;
+    
+        .image_details_title {
+          font-family: Inter;
+          font-size: 32px;
+          font-weight: 900;
+          line-height: 38.73px;
+          text-align: left;
+          color: white;
+        }
+    
+        .image_details_description {
+          font-family: Inter;
+          font-size: 32px;
+          font-weight: 400;
+          line-height: 38.73px;
+          letter-spacing: -0.04em;
+          color: white;
+        }
+      }
+    }
+    
+}
+.body_section {
+    background-color: #0a4251;
+    .left_para {
+      font-family: Inter;
+      font-size: 40px;
+      font-weight: 400;
+      line-height: var(--DisplayMediumLineHeight);
+      letter-spacing: -0.04em;
+      text-align: left;
+      color: #ff5757;
+    }
+  
+    .right_side {
+      .right_side_para1 {
+        font-family: Roboto;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: var(--HeadlineSmallLineHeight);
+        text-align: left;
+        color: #edf6f9;
+      }
+  
+      .right_side_para2 {
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: var(--BodyMediumLineHeight);
+        text-align: left;
+        color: #edf6f9;
+      }
+    }
+}
+  
+.body_image{
+  
+    p{
+      font-family: Roboto;
+      font-size: 16px;
+      font-weight: 300;
+      line-height: var(--BodyMediumLineHeight);
+      text-align: left;
+  
+    }
+}
+
+
+.dummy_section {
+  display: flex;
+  width: 60%;
+
+  .dummy_section_left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; // Use justify-content instead of align-items
+
+    p{
+      font-family: Roboto;
+      font-size: 24px;
+      font-weight: 400;
+      line-height: var(--HeadlineSmallLineHeight);
+      text-align: left;
+
+    }
+    .dummy_box {
+      width: 90%;
+
+      border-radius: 16px;
+      opacity: 0px;
+      padding: 16px;
+      display: grid;
+
+      gap: 10px;
+      background: #86A34D;
+
+
+      img {
+        width: 100%;
+        height: 100px;
+      }
+
+      .dummy_box_para1{
+        font-family: Roboto;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 28px;
+        letter-spacing: -0.04em;
+        text-align: left;
+        color: #FFFFFF;
+        margin: 0px!important;
+
+
+      }
+
+      .dummy_box_para2{
+        font-family: Roboto;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: -0.04em;
+        text-align: left;
+        color: #FFFFFF;
+        margin: 0px!important;
+
+
+
+      }
+    }
+  }
+
+  .dummy_section_right {
+    width: 50%;
+
+    .dummy_section_right_para1{
+      font-family: Roboto;
+      font-size: 16px;
+      font-weight: 300;
+      line-height: var(--BodyMediumLineHeight);
+      text-align: left;
+
+    }
+
+    .dummy_section_right_para2{
+      font-family: Roboto;
+      font-size: 24px;
+      font-weight: 400;
+      line-height: var(--HeadlineSmallLineHeight);
+      text-align: left;
+      color: #FF5757;
+
+
+    }
+  }
+}

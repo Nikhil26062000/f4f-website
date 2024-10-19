@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.intro_section {
+  width: 100%;
+  padding: 120px 168px;
+  background: #89ac45;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.intro_section img {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 100%;
+  mix-blend-mode: multiply;
+  opacity: 0.3;
+}
+.intro_section p {
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 44px;
+  letter-spacing: -0.04em;
+  text-align: center;
+  color: #09383a;
+}
+.intro_section span {
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: -0.04em;
+  text-align: center;
+}
+
+.our_work {
+  width: 100%;
+  background: #09383a;
+  padding: 80px 168px;
+}
+.our_work .work-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  padding: 40px;
+  color: #fff;
+}
+.our_work .work-section .work-content {
+  flex: 1;
+  margin-right: 40px;
+}
+.our_work .work-section .work-content h1 {
+  font-family: Inter;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 72.68px;
+  letter-spacing: -0.04em;
+  text-align: left;
+}
+.our_work .work-section .work-content .dropdowns {
+  margin: 20px 0;
+}
+.our_work .work-section .work-content .dropdowns .dropdown {
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.11px;
+  border: 2px solid #86a34d;
+  border-radius: 10px;
+  background: transparent;
+  color: #f4910f;
+}
+.our_work .work-section .work-content .dropdowns .dropdown.active {
+  color: #09383a;
+  background-color: #86a34d;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.11px;
+  text-align: left;
+  padding: 10px 20px;
+  border: 2px solid #86a34d;
+  border-radius: 10px;
+}
+.our_work .work-section .work-content .dropdowns .dropdown span {
+  margin-left: 10px;
+}
+.our_work .work-section .work-content .description {
+  font-size: 16px;
+  line-height: 18.77px;
+  margin: 20px 0;
+  color: #86a34d;
+}
+.our_work .work-section .work-content .description .learn-more {
+  color: #f4910f;
+  cursor: pointer;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18.77px;
+}
+.our_work .work-section .technology_button {
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.11px;
+  border: 2px solid #86a34d;
+  border-radius: 20px;
+  background: transparent;
+  color: #f4910f;
+}
+.our_work .work-section .technology_button span {
+  margin-left: 10px;
+}
+.our_work .work-section .work-image {
+  flex: 1;
+}
+.our_work .work-section .work-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.card_section {
+  width: 306px;
+  height: 168px;
+  padding: 20px;
+  border-radius: 24px;
+  opacity: 0px;
+  background: #FFEFCC;
+  margin: 20px;
+}
+.card_section .para1 {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23.46px;
+  letter-spacing: -0.04em;
+  color: #542540;
+}
+.card_section .para2 {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.77px;
+  letter-spacing: -0.04em;
+  color: #542540;
+}
+.card_section img {
+  width: 192px;
+  height: 79px;
+}
+
+/*# sourceMappingURL=f4fIntro.css.map */

@@ -248,3 +248,158 @@
 .icon_code{
     padding-left: 5px;
 }
+
+
+/*-------------- Responsive design ----------------- */
+
+@media only screen and (max-width: 1024px) {
+    .footer_body{
+        width: 90%;
+        
+       
+     
+    }
+
+  }
+
+
+
+
+  @media only screen and (max-width: 768px) {
+    
+    .mobile_screen{
+        width: 100%;
+        /* height: 100vh; */
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .footer{
+       
+        display: flex;
+        justify-content:center;
+        align-items:start;
+        height:auto
+    }
+
+    .footer_container2{
+        display: none;
+    }
+
+    .footer > .f4f_logo{
+
+        
+        width: 100%;
+      
+        justify-content: center;
+        opacity: .2;
+        
+    }
+
+    .footer_img_input{
+        width: 100%;
+        /* background:red; */
+        margin-top: 20px;
+        margin-bottom: 50px;
+        position: relative;
+    }
+
+    .footer_img_input > input{
+        width: 100%;
+        background-color: transparent;
+        border: 3px solid #F4910F;
+
+    }
+
+    .footer_img_input > div{
+        width: 10%;
+        background: #F4910F;
+        position: absolute;
+        right:0;
+        height: 100%;
+        border: none;
+        
+
+        
+    }
+
+    .mobile_logo{
+        width: 100%;
+        display: flex; 
+        justify-content:center;
+
+    }
+
+    .icons{
+        width: 100%;
+        /* background: red; */
+        justify-content: space-evenly;
+        margin-top:20px;
+        margin-bottom: 50px;
+    }
+
+    .heading{
+        font-family: Inter;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 30.28px;
+        letter-spacing: -0.04em;
+        text-align: center;
+        color: white;
+
+
+    }
+
+    
+
+    .footer_links > div > li {
+        color: white;
+
+    }
+
+    .mobile_details{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        flex-wrap: wrap;
+        border-top: 3px solid #F4910F;
+        /* padding-top: 20px; */
+        margin-top: 50px;
+        padding-top: 20px;
+    }
+
+    .mobile_details >div> span {
+        font-weight: 700;
+        font-size: 14px;
+        line-height:22px;
+        color: #FFEFCC;
+
+
+    }
+
+    .mobile_details >div> p{
+        font-size:14px;
+        line-height: 22px;
+        font-weight: 400;
+        color: #FFEFCC;
+
+    }
+
+    .policiy_section{
+        display: flex;
+        justify-content:start;
+        gap:10%;
+        margin-top: 10px;
+    }
+
+   
+
+
+  }
+
+
+  @media only screen and (min-width: 769px) {
+    .mobile_screen{
+     display: none !important;
+    }
+   }

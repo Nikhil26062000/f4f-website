@@ -1,0 +1,361 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading{
+    
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44.8px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    color: #603A26;
+
+
+}
+
+.para_title{
+    
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44.8px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    color: #F4910F;
+
+
+}
+
+.section_box{
+    .div_box{
+        width: 340px;
+        height:260px;
+        padding: 20px;
+       
+        border-radius: 20px;
+        background: #FFEFCC;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+
+        p{
+            
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 19.38px;
+            letter-spacing: -0.04em;
+            text-align: center;
+
+        }
+
+        img{
+            width: 174px;
+            height: 174px;
+           
+
+        }
+
+    }
+}
+
+.portal_invite{
+
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44.8px;
+    letter-spacing: -0.04em;
+    text-align: center; 
+    color: #603A26;
+   
+
+}
+
+.request_demo_btn{
+
+    padding: 14.5px 24px 14.5px 24px;
+    border-radius: 10px;
+    background: #F4910F;
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23.44px;
+    text-align: left;
+
+
+}
+
+
+.protect_forest{
+    width: 50%;
+    padding: 100px 80px 100px 80px;
+    background: #89AC45;
+
+    .protect_forest_title{
+       
+        font-size: 66px;
+        font-weight: 300;
+        line-height: 79.88px;
+        letter-spacing: -0.04em;
+        text-align: center;
+        color: #F0F9DC;
+
+
+    }
+
+    .inner_box_parent{
+        padding: 40px;
+        margin-top: 0px;
+
+        .sub_title{
+   
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 20px;
+            text-align: left;
+            color: #F0F9DC;
+
+    
+        }
+
+        .inner_box{
+            width: 100%;
+            margin-top: 20px;
+            padding: 5px 20px 5px 20px;
+         
+            border-radius: 20px;
+            background: #F0F9DC;
+    
+            .navbar{
+                width: 100%;
+                display: flex;
+                justify-content:space-between;
+    
+                .nav_link1{
+                    width: 50%;
+    
+                    padding: 20px;
+                    gap: 8px;
+                    border-bottom: 2px solid #86A34D;
+                    opacity: 0px;
+                    list-style: none;
+                  
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 28px;
+                    text-align: center;
+                    color: #09383A;
+    
+    
+    
+                }
+    
+                .nav_link2{
+                    width: 50%;
+    
+                    padding: 20px;
+                    gap: 8px;
+                    border: 0px 0px 2px 0px;
+                    opacity: 0px;
+                    list-style: none;
+              
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 28px;
+                    text-align: center;
+                    color: #09383A;
+    
+    
+    
+    
+                }
+                
+            }
+    
+            .inner_box_text{
+              
+                font-size: 13px;
+                font-weight: 400;
+                line-height: 15.73px;
+                text-align: left;
+                color: #09383A;
+                padding-top: 20px;
+    
+    
+            }
+    
+            .input_fields{
+                display: flex;
+                justify-content:space-between;
+                margin-top: 20px;
+    
+                .input1{
+                   display: flex;
+                   flex-direction: column;
+                   width: 45%;
+                   gap: 10px;
+                    input{
+                        padding: 10px 11px 10px 11px;
+                        
+                        border-radius: 8px;
+                        background: rgba(134, 163, 77, 0.2);
+                        border:none;
+                        
+                        font-size: 13px;
+                        font-weight: 400;
+                        line-height: 15.73px;
+                        text-align: left;
+                        color: #9B9B9B;
+                        outline: none;
+
+    
+                    }
+
+                    lable{
+                        color: #09383A;
+                        
+                        font-size: 13px;
+                        font-weight: 700;
+                        line-height: 15.73px;
+                        text-align: left;
+                        
+
+                    }
+                    
+    
+                }
+    
+                .input2{
+    
+                    display: flex;
+                    flex-direction: column;
+                    width: 45%;
+                    gap: 10px;
+                    input{
+                    
+                        padding: 10px 11px 10px 11px;
+                        
+                        border-radius: 8px;
+                        background: rgba(134, 163, 77, 0.2);
+                        border:none;
+                        
+                        font-size: 13px;
+                        font-weight: 400;
+                        line-height: 15.73px;
+                        text-align: left;
+                        color: #9B9B9B;
+                        outline: none;
+    
+    
+    
+    
+                    }
+
+                    lable{
+                        color: #09383A;
+                        
+                        font-size: 13px;
+                        font-weight: 700;
+                        line-height: 15.73px;
+                        text-align: left;
+
+                    }
+                }
+            }
+    
+            .carbon_quant{
+                margin-top: 20px;
+                .title{
+                
+                    font-size: 13px;
+                    font-weight: 700;
+                    line-height: 15.73px;
+                    text-align: left;
+                    padding-bottom: 10px;
+                    color: #09383A !important;
+
+                    
+                }
+    
+    
+                .para2{
+                    
+                    font-size: 13px;
+                    font-weight: 400;
+                    line-height: 15.73px;
+                    text-align: left;
+    
+                }
+    
+                .submit_btn{
+                    width: 100%;
+                
+                    padding: 20px 40px 20px 40px;
+                 
+                    margin-top: 20px;
+                   
+               
+                    border: none;
+                    background-color: transparent;
+                    border-top: 2px solid rgba(134, 163, 77, 1);
+                    
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 28px;
+                    text-align: center;
+                    color: rgba(9, 56, 58, 1);
+    
+                    
+    
+            
+                }
+            }
+    
+           
+    
+    
+        }
+    }
+
+    
+
+   
+
+    
+}
+
+
+
+.grow_forests{
+    width: 50%;
+    padding: 100px 80px 100px 80px;
+    background: #BA744A;
+
+  
+    .grow_forests_title{
+     
+        font-size: 66px;
+        font-weight: 300;
+        line-height: 79.88px;
+        letter-spacing: -0.04em;
+        text-align: left;
+        color: #FFEFCC;
+
+
+    }
+
+    .grow_forests_text{
+       
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        color: #FFEFCC;
+
+
+    }
+}
+

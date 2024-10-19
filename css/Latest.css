@@ -1,0 +1,228 @@
+.title {
+  font-family: Inter;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 54.51px;
+  letter-spacing: -0.04em;
+  text-align: center;
+  color: #f4910f;
+}
+
+.desc {
+  font-family: Inter;
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 54.51px;
+  letter-spacing: -0.04em;
+  text-align: center;
+  color: #09383a;
+}
+
+.section_box {
+  width: 537px;
+  height: 386px;
+  border-radius: 8px;
+  opacity: 0px;
+  background: #d9d9d9;
+}
+
+.small_title {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.07px;
+  text-align: left;
+  color: #e05555;
+}
+
+.nws_letter {
+  padding: 6px 10px 6px 10px;
+  border-radius: 100px;
+  border: 3px solid white;
+  color: #e05555;
+  width: 107px;
+  height: 33px;
+  background-color: white;
+}
+
+.sub_heading {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: -0.04em;
+  text-align: left;
+  color: #09383a;
+}
+
+.long_desc {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.77px;
+  text-align: left;
+  color: #09383a;
+}
+
+button {
+  padding: 14.5px 24px 14.5px 24px;
+  border-radius: 10px;
+  opacity: 0px;
+  background: #f4910f;
+  color: white;
+  text-transform: uppercase;
+  outline: none;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23.44px;
+  border: none;
+}
+
+.infographic {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.infographic .card1 {
+  width: 300px;
+  height: 150px;
+  position: absolute;
+  top: 0;
+  left: 25%;
+}
+.infographic .card1 img {
+  width: 100px;
+  height: 100px;
+}
+.infographic .card1 .info {
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  bottom: 0px;
+  right: 0;
+}
+.infographic .card1 .info h2 {
+  color: #f4910f;
+}
+.infographic .card1 .info p {
+  background: #09383a;
+  color: white;
+  padding: 5px;
+  display: inline;
+}
+.infographic .card2 {
+  width: 300px;
+  height: 150px;
+  position: absolute;
+  top: 220px;
+  right: 0;
+}
+.infographic .card2 img {
+  width: 100px;
+  height: 100px;
+}
+.infographic .card2 .info {
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  bottom: 0px;
+  right: 0;
+}
+.infographic .card2 .info h2 {
+  color: #f4910f;
+}
+.infographic .card2 .info p {
+  background: #09383a;
+  color: white;
+  padding: 5px;
+  display: inline;
+}
+.infographic .card3 {
+  width: 300px;
+  height: 150px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.infographic .card3 img {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.infographic .card3 .info {
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  bottom: 0px;
+  left: 0;
+}
+.infographic .card3 .info h2 {
+  color: #f4910f;
+}
+.infographic .card3 .info p {
+  background: #09383a;
+  color: white;
+  padding: 5px;
+  display: inline;
+}
+.infographic .card4 {
+  width: 300px;
+  height: 150px;
+  position: absolute;
+  top: 145px;
+  left: 5%;
+}
+.infographic .card4 img {
+  width: 100px;
+  height: 100px;
+}
+.infographic .card4 .info {
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  bottom: 0px;
+  right: 0;
+}
+.infographic .card4 .info h2 {
+  color: #f4910f;
+}
+.infographic .card4 .info p {
+  background: #09383a;
+  color: white;
+  padding: 5px;
+  display: inline;
+}
+.infographic .card5 {
+  width: 400px;
+  height: 150px;
+  position: absolute;
+  top: 333px;
+  left: 15%;
+}
+.infographic .card5 img {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  right: 0;
+}
+.infographic .card5 .info {
+  position: absolute;
+  width: 300px;
+  height: 100px;
+  bottom: 0px;
+  left: 0px;
+}
+.infographic .card5 .info h2 {
+  color: #f4910f;
+}
+.infographic .card5 .info p {
+  background: #09383a;
+  color: white;
+  padding: 5px;
+  display: inline;
+}
+
+/*# sourceMappingURL=Latest.css.map */
