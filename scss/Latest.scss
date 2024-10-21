@@ -1,3 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .title {
   font-family: Inter;
   font-size: 45px;
@@ -256,5 +262,73 @@ button {
         display: inline;
       }
     }
+  }
+}
+
+
+
+// --------------------------- mobile section scss code --------------------- 
+
+
+.impact-section {
+  background-color: #fff4e5;
+  padding: 20px;
+  border-radius: 8px;
+  width: 350px;
+  text-align: left; /* Align text to the left */
+
+  .impact-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+
+      .square {
+          width: 35%;  /* 50% of the parent width */
+          height: 100px;
+          background-color: #ff9100;
+          margin-right: 10px;
+      }
+
+      .text {
+          width: 65%;  /* Remaining 50% for the text */
+          display: flex;
+          // flex-wrap: wrap;
+    flex-direction: column;
+    height: 100px;
+    justify-content: end;
+          
+          h2 {
+              font-size: 24px;
+              color: #ff9100;
+              margin: 0;
+              font-size: 40px;
+          }
+
+          p {
+              font-size: 12px;
+              color: #17322e;
+              background-color: #17322e;
+              padding: 2px 5px;
+              // display: inline-block;
+              // margin-top: 5px;
+              color: #fff;
+              margin-bottom: 0px !important;
+          }
+      }
+  }
+
+  .impact-button {
+      background-color: #ff9100;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 20px;
+      font-size: 14px;
+      cursor: pointer;
+      margin-top: 20px;
+
+      &:hover {
+          background-color: #e07a00;
+      }
   }
 }
