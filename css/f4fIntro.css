@@ -22,7 +22,6 @@
   opacity: 0.3;
 }
 .intro_section p {
-  font-family: Inter;
   font-size: 32px;
   font-weight: 400;
   line-height: 44px;
@@ -31,7 +30,6 @@
   color: #09383a;
 }
 .intro_section span {
-  font-family: Inter;
   font-size: 32px;
   font-weight: 700;
   line-height: 44px;
@@ -56,7 +54,6 @@
   margin-right: 40px;
 }
 .our_work .work-section .work-content h1 {
-  font-family: Inter;
   font-size: 60px;
   font-weight: 700;
   line-height: 72.68px;
@@ -73,7 +70,6 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-family: Roboto;
   font-size: 18px;
   font-weight: 700;
   line-height: 21.11px;
@@ -85,7 +81,6 @@
 .our_work .work-section .work-content .dropdowns .dropdown.active {
   color: #09383a;
   background-color: #86a34d;
-  font-family: Roboto;
   font-size: 18px;
   font-weight: 700;
   line-height: 21.11px;
@@ -106,7 +101,6 @@
 .our_work .work-section .work-content .description .learn-more {
   color: #f4910f;
   cursor: pointer;
-  font-family: Roboto;
   font-size: 16px;
   font-weight: 700;
   line-height: 18.77px;
@@ -118,7 +112,6 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-family: Roboto;
   font-size: 18px;
   font-weight: 700;
   line-height: 21.11px;
@@ -149,7 +142,6 @@
   margin: 20px;
 }
 .card_section .para1 {
-  font-family: Roboto;
   font-size: 20px;
   font-weight: 600;
   line-height: 23.46px;
@@ -157,7 +149,6 @@
   color: #542540;
 }
 .card_section .para2 {
-  font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
   line-height: 18.77px;
